@@ -1,0 +1,394 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Great Vibes, sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.menu {
+    background-color: indigo;
+    width: 100%;
+    height: 115px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.menuButton {
+    width: 200px;
+    height: 90px;
+    border-radius: 20px;
+    color: indigo;
+    background-color: thistle;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 0;
+}
+
+.secondButton {
+    color: crimson;
+    background-color: lightcoral;
+}
+
+.main {
+    min-height: 100vh;
+    background: linear-gradient(indigo, indigo, lightcoral, yellow, lightgreen, blueviolet, indigo, lightcoral, yellow, lightgreen, blueviolet, indigo, lightcoral, yellow, lightgreen, blueviolet, indigo, lightcoral, yellow, lightgreen, blueviolet, indigo, lightcoral, yellow, lightgreen, blueviolet,indigo, lightcoral, yellow, lightgreen, blueviolet, indigo, lightcoral, yellow, lightgreen, blueviolet, indigo, lightcoral, yellow, lightgreen, blueviolet, indigo, lightcoral, yellow, lightgreen, blueviolet, indigo, lightcoral, yellow, lightgreen, blueviolet,indigo, lightcoral, yellow, lightgreen, blueviolet, indigo, lightcoral, yellow, lightgreen, blueviolet, indigo, lightcoral, yellow, lightgreen, blueviolet, indigo, lightcoral, yellow, lightgreen, blueviolet, indigo, lightcoral, yellow, lightgreen, blueviolet,indigo, lightcoral, yellow, lightgreen, blueviolet, indigo, lightcoral, yellow, lightgreen, blueviolet, indigo, lightcoral, yellow, lightgreen, blueviolet, indigo, lightcoral, yellow, lightgreen, blueviolet, indigo, lightcoral, yellow, lightgreen, blueviolet, indigo, lightcoral, yellow, lightgreen, blueviolet, indigo, lightcoral, yellow, lightgreen, blueviolet, indigo, lightcoral, yellow, lightgreen, blueviolet, indigo, lightcoral, yellow, lightgreen, blueviolet, indigo, lightcoral, yellow, lightgreen, blueviolet,indigo, lightcoral, yellow, lightgreen, blueviolet, indigo, lightcoral, yellow, lightgreen, blueviolet, indigo, lightcoral, yellow, lightgreen, blueviolet, indigo, lightcoral, yellow, lightgreen, blueviolet, indigo, lightcoral, yellow, lightgreen, blueviolet,indigo, lightcoral, yellow, lightgreen, blueviolet, indigo, lightcoral, yellow, lightgreen, blueviolet, indigo, lightcoral, yellow, lightgreen, blueviolet, indigo, lightcoral, yellow, lightgreen, blueviolet, indigo, lightcoral, yellow, lightgreen, blueviolet,indigo, lightcoral, yellow, lightgreen, blueviolet, indigo, lightcoral, yellow, lightgreen, blueviolet, indigo, lightcoral, yellow, lightgreen, blueviolet, indigo, lightcoral, yellow, lightgreen, blueviolet, indigo, lightcoral, yellow, lightgreen, blueviolet );
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.firstPic {
+    background-image: url(5449554668553365547.jpg);
+    border-radius: 20px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 600px;
+    height: 450px;
+}
+
+.happy_birthday {
+    font-size: 120px;
+    font-weight: 500;
+    text-align: center;
+
+}
+
+.label {
+    text-decoration: underline;
+    font-weight: 600;
+    text-shadow: 7px 3px 3px black;
+    color: maroon;
+}
+
+.secondPic {
+    background-image: url(5449554668553365550.jpg);
+    border-radius: 20px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 600px;
+    height: 450px;
+}
+.Pic3 {
+    background-image: url(5449554668553365552.jpg);
+    border-radius: 20px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 600px;
+    height: 450px;
+}
+.Pic4 {
+    background-image: url(5449554668553365549.jpg);
+    border-radius: 20px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 600px;
+    height: 450px;
+}
+.Pic5 {
+    background-image: url(5449554668553365548.jpg);
+    border-radius: 20px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 600px;
+    height: 900px;
+}
+.Pic6 {
+    background-image: url(5449554668553365551.jpg);
+    border-radius: 20px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 600px;
+    height: 900px;
+}
+.Pic7 {
+    background-image: url(5449554668553365553.jpg);
+    border-radius: 20px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 600px;
+    height: 800px;
+}
+.Pic8 {
+    background-image: url(5449554668553365554.jpg);
+    border-radius: 20px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 600px;
+    height: 800px;
+}
+.Pic9 {
+    background-image: url(5449554668553365555.jpg);
+    border-radius: 20px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 600px;
+    height: 450px;
+}
+.Pic10 {
+    background-image: url(5449554668553365556.jpg);
+    border-radius: 20px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 600px;
+    height: 450px;
+}
+.Pic11 {
+    background-image: url(5449554668553365560.jpg);
+    border-radius: 20px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 600px;
+    height: 600px;
+}
+.Pic12 {
+    background-image: url(5449554668553365561.jpg);
+    border-radius: 20px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 600px;
+    height: 600px;
+}
+.Pic13 {
+    background-image: url(5449554668553365558.jpg);
+    border-radius: 20px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 600px;
+    height: 450px;
+}
+.Pic14 {
+    background-image: url(5449554668553365557.jpg);
+    border-radius: 20px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 600px;
+    height: 600px;
+}
+.Pic15 {
+    background-image: url(5449554668553365559.jpg);
+    border-radius: 20px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 600px;
+    height: 800px;
+}
+.Pic16 {
+    background-image: url(5449554668553365564.jpg);
+    border-radius: 20px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 600px;
+    height: 800px;
+}
+
+.Pic17 {
+    background-image: url(5449554668553365566.jpg);
+    border-radius: 20px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 600px;
+    height: 800px;
+}
+.Pic18 {
+    background-image: url(5449554668553365563.jpg);
+    border-radius: 20px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 600px;
+    height: 450px;
+}
+
+.Pic19 {
+    background-image: url(5449554668553365565.jpg);
+    border-radius: 20px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 600px;
+    height: 450px;
+}
+.Pic20 {
+    background-image: url(5449554668553365567.jpg);
+    border-radius: 20px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 600px;
+    height: 450px;
+}
+.Pic21 {
+    background-image: url(5449554668553365562.jpg);
+    border-radius: 20px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 600px;
+    height: 450px;
+}
+
+.Pic22 {
+    background-image: url(5449554668553365579.jpg);
+    border-radius: 20px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 600px;
+    height: 450px;
+}
+.Pic23 {
+    background-image: url(5449554668553365568.jpg);
+    border-radius: 20px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 600px;
+    height: 800px;
+}
+.Pic24 {
+    background-image: url(5449554668553365571.jpg);
+    border-radius: 20px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 600px;
+    height: 600px;
+}
+.Pic25 {
+    background-image: url(5449554668553365569.jpg);
+    border-radius: 20px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 600px;
+    height: 450px;
+}
+.Pic26 {
+    background-image: url(5449554668553365575.jpg);
+    border-radius: 20px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 600px;
+    height: 450px;
+}
+.Pic27 {
+    background-image: url(5449554668553365573.jpg);
+    border-radius: 20px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 600px;
+    height: 800px;
+}
+.Pic28 {
+    background-image: url(5449554668553365570.jpg);
+    border-radius: 20px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 600px;
+    height: 700px;
+}
+.Pic29 {
+    background-image: url(5449554668553365572.jpg);
+    border-radius: 20px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 600px;
+    height: 800px;
+}
+.Pic30 {
+    background-image: url(5449554668553365580.jpg);
+    border-radius: 20px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 600px;
+    height: 450px;
+}
+.Pic31 {
+    background-image: url(5449554668553365574.jpg);
+    border-radius: 20px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 600px;
+    height: 450px;
+}
+.Pic32 {
+    background-image: url(5449554668553365576.jpg);
+    border-radius: 20px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 600px;
+    height: 450px;
+}
+
+.Pic33 {
+    background-image: url(5449554668553365582.jpg);
+    border-radius: 20px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 600px;
+    height: 450px;
+}
+
+.Pic34 {
+    background-image: url(5449554668553365578.jpg);
+    border-radius: 20px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 600px;
+    height: 800px;
+}
+
+.Pic35 {
+    background-image: url(5449554668553365584.jpg);
+    border-radius: 20px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 600px;
+    height: 950px;
+}
+
+.Pic36 {
+    background-image: url(5449554668553365585.jpg);
+    border-radius: 20px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 600px;
+    height: 800px;
+}
+
+.Pic37 {
+    background-image: url(5449554668553365586.jpg);
+    border-radius: 20px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 600px;
+    height: 800px;
+}
+.Pic38 {
+    background-image: url(5449554668553365581.jpg);
+    border-radius: 20px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 600px;
+    height: 800px;
+}
+.Pic39 {
+    width: 800px;
+    height: 1000px;
+    margin-bottom: 350px;
+}
+.Pic40 {
+   
+    width: 800px;
+    height: 1000px;
+    margin-bottom: 350px;
+}
+.Pic41 {
+    
+    width: 800px;
+    height: 1000px;
+    margin-bottom: 350px;
+}

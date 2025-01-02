@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Great Vibes, sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.menu {
+    background-color: indigo;
+    width: 100%;
+    height: 115px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.menuButton {
+    width: 200px;
+    height: 90px;
+    border-radius: 20px;
+    color: indigo;
+    background-color: thistle;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 0;
+}
+
+.thirdButton {
+    color: crimson;
+    background-color: lightcoral;
+}
+
+.main {
+    min-height: 100vh;
+    background: linear-gradient(indigo, lightcoral, yellow, lightgreen, blueviolet, indigo, lightcoral, yellow, lightgreen, blueviolet,  indigo, lightcoral, yellow, lightgreen, blueviolet);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.firstPic {
+    background-image: url(scale_1200.png);
+    border-radius: 20px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 600px;
+    height: 450px;
+}
+
+.happy_birthday {
+    font-size: 120px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.label {
+    text-decoration: underline;
+    font-weight: 600;
+    text-shadow: 7px 3px 3px black;
+    color: maroon;
+}
+
+.secondPic {
+    background-image: url(photo_2024-12-18_11-26-37.webp);
+    border-radius: 20px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 600px;
+    height: 700px;
+}
+
+.Pic3 {
+    background-image: url(maxresdefault.jpg.crdownload);
+    border-radius: 20px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 600px;
+    height: 330px;
+}
+.Pic4 {
+    background-image: url(i.webp);
+    border-radius: 20px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 600px;
+    height: 800px;
+}
+
+.Pic5 {
+    background-image: url(WczLlFv8DyFkIn1hAAOjuw.jpeg);
+    border-radius: 20px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 600px;
+    height: 550px;
+}
+.Pic6 {
+    background-image: url(scale_1200.jpg);
+    border-radius: 20px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 600px;
+    height: 400px;
+}
+
+.Pic7 {
+    background-image: url(732846d73a38a46ff91c430da1312df7.jpg);
+    border-radius: 20px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 600px;
+    height: 550px;
+}
+.Pic8 {
+    background-image: url(i\ \(1\).webp);
+    border-radius: 20px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 600px;
+    height: 600px;
+}

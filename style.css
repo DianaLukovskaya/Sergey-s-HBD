@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Great Vibes, sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.menu {
+    background-color: indigo;
+    width: 100%;
+    height: 115px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.menuButton {
+    width: 200px;
+    height: 90px;
+    border-radius: 20px;
+    color: indigo;
+    background-color: thistle;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 0;
+}
+
+.firstButton {
+    color: crimson;
+    background-color: lightcoral;
+}
+
+.main {
+    min-height: 100vh;
+    background: linear-gradient(indigo, lightcoral, yellow, lightgreen, blueviolet);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.firstPic {
+    background-image: url(mainpic.jpg);
+    border-radius: 20px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 600px;
+    height: 450px;
+}
+
+.happy_birthday {
+    font-size: 120px;
+    color: indigo;
+    font-weight: 600;
+    text-shadow: 7px 3px 3px black;
+    color: maroon;
+}
+
+.secondPic {
+    background-image: url(love.jpg);
+    border-radius: 20px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 600px;
+    height: 450px;
+}
